@@ -1,0 +1,29 @@
+{
+    "development": {
+        "username": "root",
+        "password": null,
+        "database": "example",
+        "pageLimit": 5,
+        "host": "localhost",
+        "dialect": "sqlite",
+        "storage": "./data/sws.sqlite3"
+    },
+    "test": {
+        "username": "",
+        "password": null,
+        "database": "",
+        "pageLimit": 500,
+        "host": "localhost",
+        "dialect": "sqlite",
+        "storage": "./data/sws.sqlite3"
+    },
+    "production": {
+        "username": "",
+        "password": null,
+        "database": "",
+        "pageLimit": 100,
+        "host": "localhost",
+        "dialect": "sqlite",
+        "storage": "./data/sws_prod.sqlite3"
+    }
+}
