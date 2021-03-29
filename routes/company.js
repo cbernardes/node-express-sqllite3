@@ -5,7 +5,7 @@ var router = express.Router();
 
 
 
-router.get('/', function(req, res){
+router.get('/',  function(req, res){
     //console.log('Getting all swsCompanys');
     getCompanyDetails(req.query).then(resp => {
         res.status(200).json(resp);

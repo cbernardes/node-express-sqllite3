@@ -9,7 +9,7 @@ const pageLimit = config.pageLimit;
 
 const getAllCompanies = (params) => {
     return new Promise(function (resolve, reject) {
-        const { symbol, score, sort_score, sort_fluct, page, id } = params || {};
+        const { symbol, score, sort_score, page, id } = params || {};
         let whereCompany = {};
         let sort = [];
         let whereScore = {};

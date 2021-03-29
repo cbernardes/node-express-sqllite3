@@ -4,6 +4,7 @@ var bodyParser = require('body-parser');
 var sqlite = require('sqlite3');
 var env = require('dotenv').load();
 var port = process.env.PORT || 8080;
+var cors = require('cors');
 
 // models
 var models = require("./models");
@@ -22,6 +23,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+app.use(cors());
 
 // register routes
 app.use('/companies', company);

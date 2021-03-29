@@ -3,7 +3,7 @@
         "username": "root",
         "password": null,
         "database": "example",
-        "pageLimit": 5,
+        "pageLimit": 20,
         "host": "localhost",
         "dialect": "sqlite",
         "storage": "./data/sws.sqlite3"
